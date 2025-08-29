@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #E4A1DF;
+  color: #4C0529; 
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+a{ 
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blueviolet;
+  text-decoration: underline;
+  transition: all ease 2s;
+}
+
+a:hover:after{ 
+  content:"hellooo";
+}
+
+#bloque{
+  margin: 5rem;
+  padding: 8rem;
+  background: rgba(255, 255, 255, .2);
+  border-radius: 1rem;
+  box-shadow: 0 0 30px white;
+}
+
+h1,h2, span.pixel{
+  font-family: "Pixelify Sans", sans-serif;
+  font-style: normal;
+}
+
+span.pixel{
+  color: #f00;
+  font-size: 80%;
+}
+
+h1{ 
+  font-size: calc(2rem + 5vw); 
+}
+
+h2{
+  font-size: calc(1rem + 2vw);
+}
